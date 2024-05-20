@@ -1,0 +1,19 @@
+:root{
+    --main-body-color: black;
+    --main-font-color: aliceblue;
+    --main-font-size: 10vw;
+}
+
+
+body {
+    background-color: var(--main-body-color);
+    color: var(--main-font-color);
+    font-size: var(--main-font-size);
+}
+.light{
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgb(0, 0, 0) 50%);
+}
+
+#Name{
+    font-size: 8vw;
+}

@@ -34,6 +34,7 @@ h2{
 	font-size: 5vw;
 	width: auto;
 	text-align: center;
+	margin-bottom: 0;
 }
 
 /*-----------------------------------------------------------------Class------------------------------------------------------------*/
@@ -85,7 +86,6 @@ h2{
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
-	align-items: center;
 	align-content: space-around;
 	gap: 1vw;
 }
@@ -93,10 +93,12 @@ h2{
 .red{
 	align-content: center;
 	text-align: center;
+	align-items: center;
 	color: transparent;
 	font-size: 1px;
-	height: 5vw;
-	width: 200px;
+	font-family: 'Courier New Black', Courier, monospace;
+	height: 7.5vw;
+	width: 12vw;
 	border-style: solid;
 	border-width: 1px;
 	border: 1px solid rgba(255, 255, 255, 0.523);
@@ -110,21 +112,24 @@ h2{
 .red:hover{
 	/*filter: grayscale(0);*/
 	color: black;
-	font-size: 4vw;
-	width: 12vw;
-	height: 6vw;
+	font-size: 3vw;
+	height: 13.5vw;
+	width: 14vw;
 	background-color: azure;
-	box-shadow: 0px 0px 150px rgb(255, 255, 255);
+	box-shadow: 0px 0px 75px rgb(255, 255, 255);
 	
 }
 
+.red img{
+	height: 6vw;
+	transition: 1s ease-in-out;
+}
 
+.red:hover img{
+	height: 7.5vw;
+}
 
 /*-----------------------------------------------------------------ID---------------------------------------------------------------*/
-
-#top{
-	
-}
 
 #Name{
 	font-size: 2vw;
@@ -156,6 +161,6 @@ h2{
 
 /*----------------------------------------------------------Media Querys------------------------------------------------------------*/
 
-@media () {
+/*@media () {
 
-}
+}*/
